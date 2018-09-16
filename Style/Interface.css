@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: rgb(155, 175, 167);
+    height: 1000px;
+    margin-left: 1%;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+button {
+    padding: 5px;
+}
+
+#location {
+    padding: 5px;
+    background-color: bisque;
+    border: 1px solid burlywood;
+    box-shadow: 5px 2px 5px olivedrab;
+    height: 5%;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.result {
+    padding: 5px;
+    background-color: bisque;
+    border: 1px solid burlywood;
+    box-shadow: 5px 2px 5px olivedrab;
+    height: 5%;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.MapArea {
+    border: 2px solid #0e1829;
+}
+
+#interactivemap {
+    margin-top: 5px;
+    /* margin-left: 1%; */
+    /* style="height:700px;width:700px" */
+    box-shadow: 5px 5px 2px rgb(60, 85, 95);
+}
+
+footer {
+    background-color: tomato;
+    height: 100px;
+    clear: both;
+}
+
+footer,
+p {
+    text-align: center;
+}
+
+#footer-text {
+    margin-bottom: 5px;
+}
+
+footer,
+a {
+    text-decoration: none;
+}
